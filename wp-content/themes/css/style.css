@@ -1,0 +1,267 @@
+@charset "utf-8";
+/* Theme Name: Whiteboard Theme URI:
+http://whiteboardframework.com/ Author: Bold Perspective Author URI:
+http://boldperspective.com/ Description: Whiteboard Framework has been helping
+Wordpress developers cut back on their development time and improve their
+Wordpress powered websites since 2008. Version: 3.2.1
+
+ * Built on the Whiteboard Framework  * http://whiteboardframework.com  */
+/*  * The Whiteboard Framework is licensed under the GPL license.  * Feel free
+to use the Whiteboard Framework for commercial and non-commercial ventures.  *
+We require a link in the CSS file and request a link on the website */
+/* List of divs in Whiteboard Note that this list does not include the
+dynamically generated ids and classes, such as the body classes, the post ids,
+etc */
+/*CUSTOM CSS FOR WHITEBOARD*/
+/*VARIABLES*/
+/*============================
+HEADER
+============================*/
+/*NORMALIZE THE HEADER*/
+h1#logo,
+h2#logo {
+  width: 120px;
+  padding: 0 10px 10px 10px;
+  background: #cccccc;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  line-height: 110%;
+  font-size: 25px;
+}
+h1#logo a,
+h2#logo a {
+  font-family: Sanchez, serif;
+  font-size: 25px;
+  color: black;
+  letter-spacing: 0;
+}
+/*destyle header link*/
+#logo a:hover {
+  border: 0;
+}
+h2#logo a:hover {
+  border: 0;
+}
+/*HEADER IMAGE*/
+#header-image {
+  padding: 0;
+  overflow: hidden;
+  line-height: 0;
+  border-bottom-right-radius: 100px;
+  margin-bottom: 10px;
+}
+/*TAGLINE*/
+h2#tagline,
+h3#tagline {
+  font-family: Sanchez, serif;
+  font-size: .9em;
+  margin-left: 70px;
+  color: #c8c8c8;
+  float: right;
+  line-height: 2em;
+}
+/*============================
+NAV
+============================*/
+nav {
+  float: left;
+  width: auto;
+  margin: 0 auto;
+}
+nav ul li {
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  text-align: middle;
+}
+/*STYLE THE LINKS*/
+a:link {
+  color: #cccccc;
+  text-decoration: none;
+}
+a:visited {
+  color: #4d4d4d;
+  text-decoration: none;
+}
+a:hover,
+:focus {
+  border-bottom: 2px solid #7bafd8;
+  -webkit-transition: border-bottom 0.25s ease-in-out;
+  -moz-transition: border-bottom 0.25s ease-in-out;
+  -ms-transition: border-bottom 0.25s ease-in-out;
+  -o-transition: border-bottom 0.25s ease-in-out;
+  transition: border-bottom 0.25s ease-in-out;
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+/*CHANGE THE CONTAINER and CONTENT BACKGROUND*/
+.container {
+  background: rgba(255, 255, 255, 0);
+}
+#content {
+  background: #cccccc;
+}
+/*GET RID OF HEADER NAV*/
+/*GLOBAL LISTS STYLE*/
+ul {
+  list-style: none;
+}
+/*SIDEBAR*/
+#sidebar {
+  float: right;
+}
+ul > li a {
+  color: #cccccc;
+  font-family: Sanchez, serif;
+  font-size: 1.1em;
+}
+ul > li a:hover {
+  border-bottom: 2px solid #7bafd8;
+  -webkit-transition: border-bottom 0.25s ease-in-out;
+  -moz-transition: border-bottom 0.25s ease-in-out;
+  -ms-transition: border-bottom 0.25s ease-in-out;
+  -o-transition: border-bottom 0.25s ease-in-out;
+  transition: border-bottom 0.25s ease-in-out;
+}
+/*STYLE THE HUNGRY FEED*/
+.hungryfeed_item h3 {
+  line-height: 120%!important;
+  padding-bottom: 5px;
+}
+.hungryfeed_item h3 a {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  color: black;
+}
+.hungryfeed_item p {
+  font-family: Georgia, serif;
+  font-weight: 100;
+  font-size: 1em;
+  line-height: 120%;
+  color: #505050;
+  padding-left: 20px;
+}
+/*STYLE THE ARTICLE HEADER*/
+article h1 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 2em!important;
+  color: black;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #7bafd8;
+  letter-spacing: .5px;
+}
+/*FOOTER*/
+footer p:nth-of-type(1) {
+  display: none;
+}
+footer p:nth-of-type(2) {
+  display: none;
+}
+footer p:nth-of-type(3) {
+  float: right;
+  font-size: 10px;
+}
+footer p:nth-of-type(4) {
+  display: none;
+}
+#nav-footer {
+  font-size: .6em;
+  color: white;
+  float: left;
+}
+#nav-footer li {
+  float: left;
+  padding-right: 10px;
+  font-size: 1.3em;
+}
+#nav-footer li a {
+  color: black;
+}
+footer {
+  background: #cccccc;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+/*HIDE THE COMMENTS AND PAGE META*/
+#page-meta,
+#comments {
+  display: none;
+}
+/*ADD SOME PADDING TO THE BOTTOM*/
+#content {
+  margin-bottom: 40px;
+}
+/*HIGHLIGHT THE CURRENT MENU ITEM and prevent visited*/
+ul.menu li.current-menu-item a {
+  color: #7bafd8;
+}
+#nav-footer li.current-menu-item a {
+  border-bottom: 2px solid #7bafd8;
+}
+li.menu-item a:visited {
+  color: #cccccc;
+}
+/*============================
+RESPONSIVE SHIT
+============================*/
+/*phone to portrait tablet*/
+@media only screen and (max-width: 479px) {
+  #nav-primary {
+    position: fixed;
+    top: 10px;
+    right: 0;
+    background: rgba(255, 255, 255, 0.8);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  ul#menu-primary {
+    margin: 10px 10px 10px 0;
+  }
+  ul#menu-primary li {
+    float: none;
+  }
+  ul#menu-primary a {
+    color: blue;
+  }
+  h2#tagline,
+  h3#tagline {
+    float: left;
+  }
+}
+/*portrait tablet to landscape tablet*/
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  ul#menu-primary {
+    margin-left: 20px;
+  }
+}
+/*landscape tablet to desktop*/
+/*BEGIN WHITEBOARD INTEGRATED OPTIONS*/
+.none {
+  /* this class is used to hid the skip to content link at 
+	the beginning of the document for accessibility */
+  display: none;
+}
+.clear {
+  clear: both;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.aligncenter {
+  text-align: center;
+}
+.alignleft {
+  text-align: left;
+}
+.alignright {
+  text-align: right;
+}
+/* Always remember to compress your live stylesheet and keep an uncompressed backup */

@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/rhymeswthgeorge
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://georgeemersonlevines.com
+  * I am rhymeswthgeorge (https://keybase.io/rhymeswthgeorge) on keybase.
+  * I have a public key with fingerprint 0F84 B7E0 D197 F25E 3F95  03DF 90E4 29F0 2CA5 90A2
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.4.9"
+        },
+        "key": {
+            "fingerprint": "0f84b7e0d197f25e3f9503df90e429f02ca590a2",
+            "host": "keybase.io",
+            "key_id": "90E429F02CA590A2",
+            "uid": "94e5f5c5959cfa1d7f73269b5c5b6a00",
+            "username": "rhymeswthgeorge"
+        },
+        "merkle_root": {
+            "ctime": 1403395003,
+            "hash": "d0003e46093080150243392dbac0b3bc9f2936c79465310ded807bf69d17f3208200abb76627bc87cf4679b38038c1622982ee3b642bb708f9c6e4d4d25bd35b",
+            "seqno": 21849
+        },
+        "service": {
+            "hostname": "georgeemersonlevines.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1403395577,
+    "expire_in": 157680000,
+    "prev": "32b8b7cc2a62ae3847855d3b53a54197a39559c16efea994cce67ae2b55cf8f7",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFVkl9sFUUUxm9rWyxiLgkaYwJJsygaU9fZmZ2dnYoPqK02EFFIg2D1sjNz5t6l
+t7uX3e1tr7X+iZiAAf8mpr7YvtiQANUagwoRFaLG+GBiUJQHwZAYi8GE1AikJjoL
+NcrbzuzvfPN955xXrr+m0Ny0M9j/1eH5JaTp61lR2Di14tKoJWLVsLpGLVkNIcry
+rygYBKvLGoCGCFKww7gjihXY29KOBabTqkOShnFkKGS7NrfGOnM8L9ZhVIakloS5
+loW07woGSDmcaUyBaE4RUZojcDHXCMuAchRgI1mJ0+yqV63LmqVQmVuOug3fg/B9
+awy/JueHrvxwgWoqKadc6sBRTDOCPS7MlfAChHIwhWQhUlJpDEI6nFXKECdlyG0P
+QjJQhVISx5ezyyzMScdFhBiriBhjQVoxtQqZE7ge4gT5yKEIuwbBSgQSCSIk15gT
+TzLuepQ4SIHyERPa48phmmDkY4QCIZjnYSakz6R2PcYF8RHxpeNhzH0MQITnYkMh
+X3PpgatchalQhAqTJIXtUWx1Ycd3+Vh+TOqhhNx23ryFjFeigcmVxlEV6mEEqS3j
+QVNfS+IslnHVUJXsk6zWlTcga9TysmEQpQXBkggjZcb4/zk7hry6N5SxTgtGamEC
+pTAnKPN80yOUvwN1I0mw8AWTEgceDoD4LvMpVURQElDXLESQq3CTHTQEnLtSgscC
+wIJSqX3N/kvsGptB2UimYTkKsqHEjG5X0/KWQlNzoa21OV/kwuL2pf9u9y8ti/7e
+8t5k6cu51XH/tVtFFa37S936x59PHPvp9Ja+O5qn+vCzuze98MGpPU73nhNrLz5o
+b/307Mmbn8rWPv/55Oll1dd+DFfUq61HVw3fNv77qZePN9rJ3N0PzX488f2SdQ8/
+3dh7z+6+939dbU/sOHHv2Ud3HK8Vf/7sSMuFqZYDHT13rbrxhoPLi/bMhjduL548
+Wi46+8ffdTZ9N9m7/ZbKzIdHWtfP9z/Z333pi83T3Sv37VNv6Vc3PNZmrx87//b8
+i4/Mt/1w6IHfGtdV2u+fvnPgnZF4HI1+NDM7wXt3Lj688rnem/rCi8cOfvMm7jlX
+6Zne/Pj51/1nzuxaRMfmRopLi+emv41nlh3auO3CS0Nn/gE=
+=J0RY
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rhymeswthgeorge
+
+==================================================================
